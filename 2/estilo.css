@@ -1,0 +1,27 @@
+body{
+	background: lightgray;
+}
+header{
+	text-align: center;
+	background: #000;
+	color: #fff;
+	padding: 10px 0;
+}
+.boton{
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+	background-color: green;
+	line-height: 2.5;
+	padding: 0 1.5em;
+	text-decoration: none;
+	text-align: center;
+}
+.azul{
+	background-color: blue;
+	text-align:  center;
+}
+.azul:hover{
+	background-color: blue;
+	text-align: center;
+}

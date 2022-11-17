@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+	font-family: 'balsamic Sans';
+}
+body{
+	background= 2021.jpg
+}
+header{
+	text-align: center;
+	background: #000;
+	color: #fff;
+	padding: 10px 0;
+}
+.container{
+	max-width: 700px;
+	margin: auto;
+	padding: 20px;
+}
+section{
+	border: 2px solid #00FF00;
+	border-radius: 7px;
+	padding: 10px;
+	margin: 10px 0; 
+}
+img{
+	height: 200px;
+	width: 200px;
+	text-align: center;
+}
+label{
+	display: block;
+	padding: 10px;
+	border-radius: 9px;
+	cursor: pointer;
+	border: 1px dashed #ccc;
+	margin-bottom: 3px;
+}
+label:hover{
+	background: #ced0fc;
+}
+button{
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	background-color: green;
+	border: none;
+	cursor: pointer;
+	border-radius: 20px;
+}
+button:hover{
+	background: #000;
+	color: #fff;
+}
+h2{
+	text-align: center;
+}
+#Resultado{
+	font-size: 30px;
+	color: darkrea;
+}
+.boton{
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+	background-color: blue;
+	line-height: 2.5;
+	padding: 0 1.5em;
+	text-decoration: none;
+	text-align: center;
+}
+.azuñ{
+	background-color: blue;
+	text-align:  center;
+}
+.azul:hover{
+	background-color: blue;
+	text-align: center;
+}

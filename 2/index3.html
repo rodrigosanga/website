@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Play Quiz</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<header>
+		<h1>Play Quiz</h1>
+		<p>Respuesta Total</p>
+	</header>
+	<center><h1>Respuestas del Play Quiz</h1></center>
+	<center>	
+	Respuesta 1:<input type="text" id="r1"><br>
+    Respuesta 2:<input type="text" id="r2"><br>
+    Total:<input type="text" id="Total">
+<input type="button" value="Sumar" onclick="suma()" class="boton azul"></center>
+	<a href="../index1.html" class="boton azul">Volver al principio</a>
+</body>
+<script>
+	function suma(){
+		var numero1 = Number(document.getElementById('r1').value);
+		var numero2 = Number(document.getElementById('r2').value);
+
+		var Total = numero1 + numero2
+
+		document.getElementById('Total').value = Total 
+	}
+</script>
+</html>

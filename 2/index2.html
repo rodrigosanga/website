@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="">
+	<title>Play Quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="descarga.jpg">
+<header>
+		<h1>Play Quiz</h1>
+		<p>Adivina las imagenes</p>
+	</header>
+	<div class="container">
+		<section id="p0">
+			<h3 style="color:red;">1 ¿Como se llama esta pintura?</h3>
+			<center><img src="img/10.jpg"></center>
+			<label>
+				<input type="radio" value="1" name="p0" onclick="respuesta(0,this)">El Grito
+			</label>
+			<label>
+				<input type="radio" value="2" name="p0" onclick="respuesta(0,this)">El Susto
+			</label>
+			<label>
+				<input type="radio" value="3" name="p0" onclick="respuesta(0,this)">El Miedo
+			</label>
+		</section>
+		<section id="p1">
+			<h3 style="color: red;">2 ¿Como se llama la persona de la imagen?</h3>
+			<center><img src="img/11.jpg"></center>
+			<label>
+				<input type="radio" value="1" name="p1" onclick="respuesta(1,this)">George Washington
+			</label>
+			<label>
+				<input type="radio" value="2" name="p1" onclick="respuesta(1,this)">John F Kennedy
+			</label>
+			<label>
+				<input type="radio" value="3" name="p1" onclick="respuesta(1,this)">theodore Roosevelt
+			</label>
+		</section>
+		<section id="p2">
+			<h3 style="color: red;">3 ¿Esta Bandera antigua a que pa&iacute;s pertenece?</h3>
+			<center><img src="img/12.jpg"></center>
+			<label>
+				<input type="radio" value="1" name="p2" onclick="respuesta(2,this)">Mongolia
+			</label>
+			<label>
+				<input type="radio" value="2" name="p2" onclick="respuesta(2,this)">China
+			</label>
+			<label>
+				<input type="radio" value="3" name="p2" onclick="respuesta(2,this)">Japon
+			</label>
+		</section>
+		<section id="p3">
+			<h3 style="color:red;">4 ¿Quien es este personaje en la historia de la tecnolog&iacute;a?</h3>
+			<center><img src="img/15.jpg"></center>
+			<label>
+				<input type="radio" value="1" name="p3" onclick="respuesta(3,this)">Alan Turing
+			</label>
+			<label>
+				<input type="radio" value="2" name="p3" onclick="respuesta(3,this)">Bill Gates
+			</label>
+			<label>
+				<input type="radio" value="3" name="p3" onclick="respuesta(3,this)">Steve Jobs
+		</section>
+		<section id="p4">
+			<h3 style="color:red;">5 ¿Como se llama este aparato electronico?</h3>
+			<center><img src="img/1.jpg"></center>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(4,this)">BetaMax
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(4,this)">VHS
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(4,this)">DVD
+			</label>
+		</section>
+		<section id="p5">
+			<h3 style="color: red;">6 ¿Como se llama esta banda?</h3>
+			<center><img src="img/Nirvana.jpg"></center>
+			<label>
+				<input type="radio" value="1" name="p5" onclick="respuesta(5,this)">Alice in Chains
+			</label>
+			<label>
+				<input type="radio" value="2" name="p5" onclick="respuesta(5,this)">Nirvana
+			</label>
+			<label>
+				<input type="radio" value="3" name="p5" onclick="respuesta(5,this)">Pearl Jam
+			</label>
+		</section>
+		<section id="p6">
+			<h3 style="color: red;">7 ¿Como se llama este personaje?</h3>
+			<center><img src="img/lenin.jpg"></center>
+			<label>
+				<input type="radio" value="1" name="p6" onclick="respuesta(6,this)">Adolf Hitler
+			</label>
+			<label>
+				<input type="radio" value="2" name="p6" onclick="respuesta(6,this)">Karl Marx
+			</label>
+			<label>
+				<input type="radio" value="3" name="p6" onclick="respuesta(6,this)">Lenin
+			</label>
+		</section>
+		<section id="p7">
+			<h3 style="color: red;">8 ¿Como se llama esta aplicacion?</h3>
+			<center><img src="img/Ares.jpg"></center>
+			<label>
+				<input type="radio" value="1" name="p7" onclick="respuesta(7,this)">Ares
+			</label>
+			<label>
+				<input type="radio" value="2" name="p7" onclick="respuesta(7,this)">Avast
+			</label>
+			<label>
+				<input type="radio" value="3" name="p7" onclick="respuesta(7,this)">Napster
+			</label>
+		</section>
+		<section id="p8">
+			<h3 style="color: red;">9 ¿Como se llama esta banda?</h3>
+			<center><img src="img/Beatles.jpg"></center>
+			<label>
+				<input type="radio" value="1" name="p8" onclick="respuesta(8,this)">The Beach Boys
+			</label>
+			<label>
+				<input type="radio" value="2" name="p8" onclick="respuesta(8,this)">The Rolling Stones
+			</label>
+			<label>
+				<input type="radio" value="3" name="p8" onclick="respuesta(8,this)">The Beatles
+			</label>
+		</section>
+		<section id="p9">
+			<h3 style="color: red;"> 10¿Como se llama el artista?</h3>
+			<center><img src="img/tupac.jpg"></center>
+			<label>
+				<input type="radio" value="1" name="p9" onclick="respuesta(9,this)">The Notourios BIG
+			</label>
+			<label>
+				<input type="radio" value="2" name="p9" onclick="respuesta(9,this)">Tupac
+			</label>
+			<label>
+				<input type="radio" value="3" name="p9" onclick="respuesta(9,this)">Eazy E
+			</label>
+		</section>
+		<button onclick="corregir()">Corregir</button>
+		<h3 style="color:red">Cantidad de Preguntas Correctas: <span id="Resultado"></span></h3>
+		<a href="index3.html" class="boton azul">Siguiente</a>
+	</div>
+    <script src="script2.js"></script>
+  </div>
+</body>
+</html>

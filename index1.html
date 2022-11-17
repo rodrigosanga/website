@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Play Quiz</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body background="12.jpg">
+	<header>
+		<h1>Play Quiz</h1>
+		<p>Preguntas de Cultura General</p>
+	</header>
+	<div class="container">
+		<section id="p0">
+			<h3 style="color:red;">1 ¿En que año empieza la segunda guerra Mundial?</h3>
+			<label>
+				<input type="radio" value="1" name="p0" onclick="respuesta(0,this)">1925
+			</label>
+			<label>
+				<input type="radio" value="2" name="p0" onclick="respuesta(0,this)">1939
+			</label>
+			<label>
+				<input type="radio" value="3" name="p0" onclick="respuesta(0,this)">1932
+			</label>
+		</section>
+		<section id="p1">
+			<h3 style="color: red;">2 ¿La guerra fr&iacute;a empez&oacute; despu&eacute;s de?</h3>
+			<label>
+				<input type="radio" value="1" name="p1" onclick="respuesta(1,this)">La Guerra de Vietnam
+			</label>
+			<label>
+				<input type="radio" value="2" name="p1" onclick="respuesta(1,this)">La Segunda Guerra Mundial
+			</label>
+			<label>
+				<input type="radio" value="3" name="p1" onclick="respuesta(1,this)">La guerra de Corea
+			</label>
+		</section>
+		<section id="p2">
+			<h3 style="color: red;">3 ¿Acontecimiento inform&aacute;tico m&aacute;s importante en 1969?</h3>
+			<label>
+				<input type="radio" value="1" name="p2" onclick="respuesta(2,this)">La calculadora
+			</label>
+			<label>
+				<input type="radio" value="2" name="p2" onclick="respuesta(2,this)">La computadora
+			</label>
+			<label>
+				<input type="radio" value="3" name="p2" onclick="respuesta(2,this)">El internet
+			</label>
+		</section>
+		<section id="p3">
+			<h3 style="color:red;">4 ¿En qu&eacute; año cay&oacute; el Muro de Berl&iacute;n?</h3>
+			<label>
+				<input type="radio" value="1" name="p3" onclick="respuesta(3,this)">1990
+			</label>
+			<label>
+				<input type="radio" value="2" name="p3" onclick="respuesta(3,this)">1989
+			</label>
+			<label>
+				<input type="radio" value="3" name="p3" onclick="respuesta(3,this)">2000
+		</section>
+		<section id="p4">
+			<h3 style="color:red;">5 ¿Pa&iacute;s que sufri&oacute; las 2 bombas at&oacute;micas en la segunda guerra mundial?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(4,this)">Italia
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(4,this)">Alemania
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(4,this)">Japon
+			</label>
+		</section>
+		<section id="p5">
+			<h3 style="color:red;">6 ¿C&oacute;mo se llama la fobia a la sangre?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(5,this)">Hematofobia
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(5,this)">Sangrefobia
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(5,this)">Eritrofobia
+			</label>
+		</section>
+		<section id="p6">
+			<h3 style="color:red;">7 ¿D&oacute;nde naci&oacute; el futbolista Lionel Messi?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(6,this)">Uruguay
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(6,this)">España
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(6,this)">Argentina
+			</label>
+		</section>
+		<section id="p7">
+			<h3 style="color:red;">8 ¿Cu&aacute;l es la ciudad m&aacute;s poblada del mundo?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(7,this)">Tokio
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(7,this)">Pekin
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(7,this)">Nueva Delhi
+			</label>
+		</section>
+		<section id="p8">
+			<h3 style="color:red;">9 ¿Cu&aacute;l es el mam&iacute;fero m&aacute;s grande del planeta?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(8,this)">Elefante
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(8,this)">Ballena Azul
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(8,this)">Tiburon Blanco
+			</label>
+		</section>
+		<section id="p9">
+			<h3 style="color:red;">10 ¿En qu&eacute; año se cre&oacute; la Uni&oacute;n Sovi&eacute;tica?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(9,this)">1920
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(9,this)">1922
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(9,this)">1930
+			</label>
+		</section>
+		<section id="p10">
+			<h3 style="color:red;">11 ¿Hacia d&oacute;nde apunta las Br&uacute;julas?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(10,this)">Este
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(10,this)">Sur
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(10,this)">Norte
+			</label>
+		</section>
+		<section id="p11">
+			<h3 style="color:red;">12 ¿El grito libertario de La Paz en que año fue ?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(11,this)">1815
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(11,this)">1809
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(11,this)">1900
+			</label>
+		</section>
+		<section id="p12">
+			<h3 style="color:red;">13 ¿De qu&eacute; color es el pelo del oso polar?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(12,this)">Blanco
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(12,this)">Gris
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(12,this)">Marrón
+			</label>
+		</section>
+		<section id="p13">
+			<h3 style="color:red;">14 ¿En qu&eacute; año se cre&oacute; la Primera Computadora?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(13,this)">1943
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(13,this)">1900
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(13,this)">1920
+			</label>
+		</section>
+		<section id="p14">
+			<h3 style="color:red;">15 ¿Qui&eacute;n es el padre de la Inform&aacute;tica?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(14,this)">Alan turing
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(14,this)">Charles Babbage
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(14,this)">Joseph Marie Jacquard
+			</label>
+		</section>
+		<section id="p15">
+			<h3 style="color:red;">16 ¿Los transistores en que generaci&oacute;n de computadoras aparecieron ?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(15,this)">Tercera
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(15,this)">Cuarta
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(15,this)">Segunda
+			</label>
+		</section>
+		<section id="p16">
+			<h3 style="color:red;">17 ¿Creador del Lenguaje HTML?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(16,this)">Tim Berners-Lee
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(16,this)">Bill Gates
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(16,this)">Larry Pages
+		</section>
+		<section id="p17">
+			<h3 style="color:red;">18 ¿Creador del lenguaje de programaci&oacute;n Java?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(17,this)">Brendan Eich
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(17,this)">James Gosling
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(17,this)">Chris Beard
+			</label>
+		</section>
+		<section id="p18">
+			<h3 style="color:red;">19 ¿Pa&iacute;s que es conocido como el coraz&oacute;n de Sudam&eacute;rica?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(18,this)">Bolivia
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(18,this)">Paraguay
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(18,this)">Argentina
+			</label>
+		</section>
+		<section id="p19">
+			<h3 style="color:red;">20 ¿Cantante que lo llamaban el Rey del Pop?</h3>
+			<label>
+				<input type="radio" value="1" name="p4" onclick="respuesta(19,this)">Elvis Presley
+			</label>
+			<label>
+				<input type="radio" value="2" name="p4" onclick="respuesta(19,this)">Michael Jackson
+			</label>
+			<label>
+				<input type="radio" value="3" name="p4" onclick="respuesta(19,this)">Bbo Marley
+			</label>
+		</section>
+		<button onclick="corregir()">Corregir</button>
+		<h3 style="color:red">Cantidad de Preguntas Correctas: <span id="Resultado"></span></h3>
+	</div>
+	<script src="script.js"></script>
+	<a href="2/index2.html" class="boton verde">Siguiente</a>
+</body>
+</html>
